@@ -16,6 +16,8 @@ namespace ConsoleApp1
             {
                 try
                 {
+                    Console.WriteLine("Welcome to the Room Size Calculator app. This app will calculate the perimeter, area, and volume" +
+                        "of a room");
                     Console.WriteLine("Please Enter the length of the classroom or type in 'quit' to exit:");
                     string length = Console.ReadLine().ToLower();
 
@@ -48,7 +50,7 @@ namespace ConsoleApp1
                     Console.WriteLine("The area of the classroom is: " + area);
 
                     double perimeter = (Length * 2) + (Width * 2);
-                    Console.WriteLine("The area of the classrom is: " + perimeter);
+                    Console.WriteLine("The perimeter of the classrom is: " + perimeter);
 
                     double volume = Length * Width * 10;
                     Console.WriteLine("The volume of the classroom is: " + volume);
